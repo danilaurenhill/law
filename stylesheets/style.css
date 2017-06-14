@@ -1,0 +1,162 @@
+/*# sourceMappingURL=style.css.map */
+/*home page*/
+h1 {
+  color: #5D737E;
+  font-family: 'Muli', sans-serif;
+}
+.topnav {
+    background-color: #5D737E;
+    overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #E3E9C2;
+    text-align: center;
+    padding: 14px 46px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Muli', sans-serif;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #19192B;
+    color: #E3E9C2;
+    font-family: 'Muli', sans-serif;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.bottom {
+  text-align: center;
+}
+.bottom img {
+  padding-top: 20px;
+  width: 80%;
+}
+.bottom p {
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  padding-top: 20px;
+  font-size: 18px;
+  color: #19192B;
+  width: 80%;
+  padding-left: 10%;
+}
+.bottom h3 {
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  color: #19192B;
+}
+.bottom .button {
+  background-color: #E3E9C2; /* Green */
+  border: none;
+  color: #5D737E;
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+/*contact page*/
+.contact {
+  text-align: center;
+  width: 100%;
+}
+.contact h2 {
+  color: #5D737E;
+}
+.contact .split .left1 {
+  width: 40%;
+  float: left;
+}
+.contact .split .right1 {
+  width: 40%;
+  float: right;
+}
+.contact .split .left2 {
+  width: 40%;
+  float: left;
+}
+.contact .split .right2 {
+  width: 40%;
+  float: right;
+}
+.contact .split .left3 {
+  width: 40%;
+  float: left;
+}
+.contact .split .right3 {
+  width: 40%;
+  float: right;
+}
+.contact .split .left4 {
+  width: 40%;
+  float: left;
+}
+.contact .split .right4 {
+  width: 40%;
+  float: right;
+}
+/*.contact .split h4 {
+  width: 40%;
+  float: left;
+  padding-top: 450px;
+}*/
+.contact .split .left5 {
+  width: 40%;
+  float: left;
+  padding-top: 34px;
+}
+.contact .split .right5 {
+  width: 40%;
+  float: right;
+}
+.contact .split .left6 {
+  width: 40%;
+  float: left;
+}
+.contact .split .right6 {
+  width: 40%;
+  float: right;
+}
+.contact .split .left7 {
+  width: 40%;
+  float: left;
+}
+.contact .split .right7 {
+  width: 40%;
+  float: right;
+}
+.contact .split .left8 {
+  width: 40%;
+  float: left;
+}
+.contact .split .right8 {
+  width: 40%;
+  float: right;
+}
+.contact .split .left9 {
+  width: 40%;
+  float: right;
+}
+.contact .split .right9 {
+  width: 40%;
+  float: left;
+}
+
+
+
+
+
+
