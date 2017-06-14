@@ -45,6 +45,7 @@ h1 {
   color: #19192B;
   width: 80%;
   padding-left: 10%;
+  text-align: justify;
 }
 .bottom h3 {
   font-family: 'Muli', sans-serif;
@@ -108,11 +109,6 @@ h1 {
   width: 40%;
   float: right;
 }
-/*.contact .split h4 {
-  width: 40%;
-  float: left;
-  padding-top: 450px;
-}*/
 .contact .split .left5 {
   width: 40%;
   float: left;
@@ -156,7 +152,89 @@ h1 {
 }
 
 
+/*practice area*/
+.info {
+  text-align: center;
+}
+.info h2 {
+  font-family: 'Muli', sans-serif;
+  color: #5D737E;
+  padding-top: 20px;
+}
+.info p {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  width: 70%;
+  padding-left: 15%;
+  text-align: justify;
+}
+.info .button {
+  background-color: #E3E9C2; /* Green */
+  border: none;
+  color: #5D737E;
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
 
 
+/*litigation_practice*/
+.options {
+  text-align: center;
+}
+.options h2 {
+  font-family: 'Muli', sans-serif;
+  color: #5D737E;
+  padding-top: 20px;
+}
+.options .button {
+  background-color: #E3E9C2; /* Green */
+  border: none;
+  color: #5D737E;
+  font-family: 'Muli', sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  display: block;
+  margin-bottom: 15px;
+}
 
-
+/*litigation*/
+.lit {
+  text-align: center;
+}
+.lit p {
+  text-align: justify;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 30px;
+}
+.lit h3 {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+}
+.lit ul {
+  padding-left: 16%;
+}
+.lit ul li {
+  text-align: justify;
+  width: 80%;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+}
