@@ -233,8 +233,97 @@ h1 {
   padding-left: 16%;
 }
 .lit ul li {
+  padding-bottom: 15px;
   text-align: justify;
   width: 80%;
   font-family: 'Muli', sans-serif;
   font-size: 18px;
 }
+
+/*crc*/
+.crc {
+  text-align: center;
+}
+.crc p {
+  text-align: justify;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 30px;
+}
+.crc h3 {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+}
+.crc ul {
+  padding-left: 16%;
+}
+.crc ul li {
+  padding-bottom: 15px;
+  text-align: justify;
+  width: 80%;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+}
+
+/*ib*/
+
+.ib {
+  text-align: center;
+}
+.ib p {
+  text-align: justify;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 30px;
+}
+.ib h3 {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+}
+.ib ul {
+  padding-left: 16%;
+}
+.ib ul li {
+  padding-bottom: 15px;
+  text-align: justify;
+  width: 80%;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+}
+
+/*adr*/
+
+.adr {
+  text-align: center;
+}
+.adr p {
+  text-align: justify;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 30px;
+}
+.adr h3 {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+}
+.adr .ul p {
+  font-family: 'Muli', sans-serif;
+  padding-top: 15px;
+}
+.adr ul {
+  padding-left: 16%;
+}
+.adr ul li {
+  padding-bottom: 15px;
+  text-align: justify;
+  width: 80%;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+}
+
