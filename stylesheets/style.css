@@ -74,6 +74,9 @@ h1 {
   text-align: center;
   width: 100%;
 }
+.contact img {
+  width: 60%;
+}
 .contact h2 {
   color: #5D737E;
 }
