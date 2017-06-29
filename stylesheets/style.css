@@ -165,14 +165,15 @@ h1 {
 .info h2 {
   font-family: 'Muli', sans-serif;
   color: #5D737E;
-  padding-top: 20px;
+  padding-top: 60px;
 }
 .info p {
   font-family: 'Muli', sans-serif;
   font-size: 18px;
-  width: 70%;
-  padding-left: 15%;
+  width: 84%;
+  padding-left: 8%;
   text-align: justify;
+  padding-top: 20px;
 }
 .info .button {
   background-color: #E3E9C2; /* Green */
@@ -227,8 +228,8 @@ h1 {
   text-align: justify;
   font-family: 'Muli', sans-serif;
   font-size: 16px;
-  width: 80%;
-  padding-left: 10%;
+  width: 90%;
+  padding-left: 5%;
   padding-top: 30px;
 }
 .lit h3 {
@@ -236,12 +237,12 @@ h1 {
   font-size: 18px;
 }
 .lit ul {
-  padding-left: 16%;
+  padding-left: 11%;
 }
 .lit ul li {
   padding-bottom: 15px;
   text-align: justify;
-  width: 80%;
+  width: 90%;
   font-family: 'Muli', sans-serif;
   font-size: 18px;
 }
@@ -254,8 +255,8 @@ h1 {
   text-align: justify;
   font-family: 'Muli', sans-serif;
   font-size: 16px;
-  width: 80%;
-  padding-left: 10%;
+  width: 90%;
+  padding-left: 5%;
   padding-top: 30px;
 }
 .crc h3 {
@@ -263,12 +264,12 @@ h1 {
   font-size: 18px;
 }
 .crc ul {
-  padding-left: 16%;
+  padding-left: 11%;
 }
 .crc ul li {
   padding-bottom: 15px;
   text-align: justify;
-  width: 80%;
+  width: 90%;
   font-family: 'Muli', sans-serif;
   font-size: 18px;
 }
@@ -282,8 +283,8 @@ h1 {
   text-align: justify;
   font-family: 'Muli', sans-serif;
   font-size: 16px;
-  width: 80%;
-  padding-left: 10%;
+  width: 90%;
+  padding-left: 5%;
   padding-top: 30px;
 }
 .ib h3 {
@@ -291,12 +292,12 @@ h1 {
   font-size: 18px;
 }
 .ib ul {
-  padding-left: 16%;
+  padding-left: 11%;
 }
 .ib ul li {
   padding-bottom: 15px;
   text-align: justify;
-  width: 80%;
+  width: 90%;
   font-family: 'Muli', sans-serif;
   font-size: 18px;
 }
@@ -310,8 +311,8 @@ h1 {
   text-align: justify;
   font-family: 'Muli', sans-serif;
   font-size: 16px;
-  width: 80%;
-  padding-left: 10%;
+  width: 90%;
+  padding-left: 5%;
   padding-top: 30px;
 }
 .adr h3 {
@@ -323,12 +324,12 @@ h1 {
   padding-top: 15px;
 }
 .adr ul {
-  padding-left: 16%;
+  padding-left: 11%;
 }
 .adr ul li {
   padding-bottom: 15px;
   text-align: justify;
-  width: 80%;
+  width: 90%;
   font-family: 'Muli', sans-serif;
   font-size: 18px;
 }
