@@ -80,6 +80,9 @@ h1 {
 .contact h2 {
   color: #5D737E;
 }
+.contact .split h3 {
+  color: #3A4E48;
+}
 .contact .split .left1 {
   width: 40%;
   float: left;
@@ -336,6 +339,7 @@ h1 {
   text-align: center;
   width: 100%;
   display: inline-block;
+  font-family: 'Muli', sans-serif;
 }
 .profile .row1 {
   text-align: left;
@@ -351,6 +355,7 @@ h1 {
   }
   .profile .row1 h3 {
     padding-top: 5%;
+    color: #3A4E48;
   }
   .profile .row1 p {
     text-align: justify;
@@ -372,6 +377,7 @@ h1 {
   }
   .profile .row2 h3 {
     padding-top: 5%;
+    color: #3A4E48;
   }
   .profile .row2 p {
     text-align: justify;
@@ -394,6 +400,7 @@ h1 {
   }
   .profile .row3 h3 {
     padding-top: 4%;
+    color: #3A4E48;
   }
   .profile .row3 p {
     text-align: justify;
@@ -415,6 +422,7 @@ h1 {
   }
   .profile .row4 h3 {
     padding-top: 5%;
+    color: #3A4E48;
   }
   .profile .row4 p {
     text-align: justify;
@@ -436,6 +444,7 @@ h1 {
   }
   .profile .row5 h3 {
     padding-top: 5%;
+    color: #3A4E48;
   }
   .profile .row5 p {
     text-align: justify;
@@ -457,6 +466,7 @@ h1 {
   }
   .profile .row6 h3 {
     padding-top: 5%;
+    color: #3A4E48;
   }
   .profile .row6 p {
     text-align: justify;
@@ -478,6 +488,7 @@ h1 {
   }
   .profile .row7 h3 {
     padding-top: 5%;
+    color: #3A4E48;
   }
   .profile .row7 p {
     text-align: justify;
@@ -499,6 +510,7 @@ h1 {
   }
   .profile .row8 h3 {
     padding-top: 5%;
+    color: #3A4E48;
   }
   .profile .row8 p {
     text-align: justify;
@@ -520,6 +532,7 @@ h1 {
   }
   .profile .row9 h3 {
     padding-top: 5%;
+    color: #3A4E48;
   }
   .profile .row9 p {
     text-align: justify;
@@ -541,6 +554,7 @@ h1 {
   }
   .profile .row10 h3 {
     padding-top: 5%;
+    color: #3A4E48;
   }
   .profile .row10 p {
     text-align: justify;
@@ -563,9 +577,56 @@ h1 {
   }
   .profile .row11 h3 {
     padding-top: 5%;
+    color: #3A4E48;
   }
   .profile .row11 p {
     text-align: justify;
     width: 79%;
     padding-left: 23px;
   }
+
+.profile h2 {
+  padding-top: 60px;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Muli', sans-serif;
+  color: #A5ABAF;
+}
+
+.profile .extra {
+  text-align: left;
+  padding-left: 25px;
+}
+  .profile .extra h3 {
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+  }
+  .profile .extra p {
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+  }
+
+.profile .row12 {
+  text-align: left;
+  padding-left: 25px;
+}
+  .profile .row12 img {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    width: 18%;
+    float: left;
+  }
+  .profile .row12 h3 {
+    padding-top: 3.4%;
+    padding-right: 936px;
+    color: #3A4E48;
+  }
+  .profile .row12 p {
+    text-align: justify;
+    width: 79%;
+    padding-left: 23px;
+  }
+
+
