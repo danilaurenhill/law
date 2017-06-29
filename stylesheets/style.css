@@ -335,36 +335,237 @@ h1 {
 .profile {
   text-align: center;
   width: 100%;
+  display: inline-block;
 }
-.profile img {
-  float: left;
-  padding-top: 110px;
-  padding-left: 10%;
-  width: 18%;
-  height: 10%;
-  margin-right: 40px;
-  margin-bottom: 20px;
+.profile .row1 {
+  text-align: left;
+  padding-left: 25px;
 }
-.profile h3 {
-  font-family: font-family: 'Muli', sans-serif;
-  padding-right: 758px;
-  padding-top: 110px;
+  .profile .row1 img {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    width: 18%;
+    float: left;
+  }
+  .profile .row1 h3 {
+    padding-top: 5%;
+  }
+  .profile .row1 p {
+    text-align: justify;
+    width: 79%;
+    padding-left: 23px;
+  }
+
+.profile .row2 {
+  text-align: left;
+  padding-left: 25px;
 }
-.profile p {
-  text-align: justify;
-  padding-right: 120px;
-  padding-top: 15px;
-  padding-left: 130px;
-  width: 80%;
+  .profile .row2 img {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    width: 18%;
+    float: left;
+  }
+  .profile .row2 h3 {
+    padding-top: 5%;
+  }
+  .profile .row2 p {
+    text-align: justify;
+    width: 79%;
+    padding-left: 23px;
+  }
+
+.profile .row3 {
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 84px;
 }
+  .profile .row3 img {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    width: 18%;
+    float: left;
+  }
+  .profile .row3 h3 {
+    padding-top: 4%;
+  }
+  .profile .row3 p {
+    text-align: justify;
+    width: 79%;
+    padding-left: 23px;
+  }
 
+.profile .row4 {
+  text-align: left;
+  padding-left: 25px;
+}
+  .profile .row4 img {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    width: 18%;
+    float: left;
+  }
+  .profile .row4 h3 {
+    padding-top: 5%;
+  }
+  .profile .row4 p {
+    text-align: justify;
+    width: 79%;
+    padding-left: 23px;
+  }
 
+.profile .row5 {
+  text-align: left;
+  padding-left: 25px;
+}
+  .profile .row5 img {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    width: 18%;
+    float: left;
+  }
+  .profile .row5 h3 {
+    padding-top: 5%;
+  }
+  .profile .row5 p {
+    text-align: justify;
+    width: 79%;
+    padding-left: 23px;
+  }
 
+.profile .row6 {
+  text-align: left;
+  padding-left: 25px;
+}
+  .profile .row6 img {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    width: 18%;
+    float: left;
+  }
+  .profile .row6 h3 {
+    padding-top: 5%;
+  }
+  .profile .row6 p {
+    text-align: justify;
+    width: 79%;
+    padding-left: 23px;
+  }
 
+.profile .row7 {
+  text-align: left;
+  padding-left: 25px;
+}
+  .profile .row7 img {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    width: 18%;
+    float: left;
+  }
+  .profile .row7 h3 {
+    padding-top: 5%;
+  }
+  .profile .row7 p {
+    text-align: justify;
+    width: 79%;
+    padding-left: 23px;
+  }
 
+.profile .row8 {
+  text-align: left;
+  padding-left: 25px;
+}
+  .profile .row8 img {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    width: 18%;
+    float: left;
+  }
+  .profile .row8 h3 {
+    padding-top: 5%;
+  }
+  .profile .row8 p {
+    text-align: justify;
+    width: 79%;
+    padding-left: 23px;
+  }
 
+.profile .row9 {
+  text-align: left;
+  padding-left: 25px;
+}
+  .profile .row9 img {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    width: 18%;
+    float: left;
+  }
+  .profile .row9 h3 {
+    padding-top: 5%;
+  }
+  .profile .row9 p {
+    text-align: justify;
+    width: 79%;
+    padding-left: 23px;
+  }
 
+.profile .row10 {
+  text-align: left;
+  padding-left: 25px;
+}
+  .profile .row10 img {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    width: 18%;
+    float: left;
+  }
+  .profile .row10 h3 {
+    padding-top: 5%;
+  }
+  .profile .row10 p {
+    text-align: justify;
+    width: 79%;
+    padding-left: 23px;
+  }
 
-
-
-
+.profile .row11 {
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 34px;
+}
+  .profile .row11 img {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    width: 18%;
+    float: left;
+  }
+  .profile .row11 h3 {
+    padding-top: 5%;
+  }
+  .profile .row11 p {
+    text-align: justify;
+    width: 79%;
+    padding-left: 23px;
+  }
