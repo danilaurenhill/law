@@ -357,6 +357,7 @@ h1 {
   }
   .profile .row1 h3 {
     padding-top: 5%;
+    font-size: 21px;
     color: #3A4E48;
   }
   .profile .row1 p {
@@ -364,6 +365,17 @@ h1 {
     width: 85%;
     margin-right: 10%;
     padding-left: 23px;
+  }
+  .profile .row1 a {
+    text-align: center;
+    width: 85%;
+    margin-right: 10%;
+    padding-left: 0px;
+    color: #5D737E;
+    text-decoration: none;
+  }
+  .profile .row1 a:hover {
+    color: #19192B;
   }
 
 .profile .row2 {
@@ -387,6 +399,18 @@ h1 {
     width: 85%;
     padding-left: 23px;
     margin-right: 10%;
+  }
+  .profile .row2 a {
+    text-align: justify;
+    width: 85%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    color: #5D737E;
+    text-decoration: none;
+  }
+  .profile .row2 a:hover {
+    color: #19192B;
   }
 
 .profile .row3 {
@@ -412,6 +436,18 @@ h1 {
     padding-left: 23px;
     margin-right: 10%;
   }
+  .profile .row3 a {
+    text-align: justify;
+    width: 85%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    color: #5D737E;
+    text-decoration: none;
+  }
+  .profile .row3 a:hover {
+    color: #19192B;
+  }
 
 .profile .row4 {
   text-align: left;
@@ -436,6 +472,18 @@ h1 {
     padding-left: 23px;
     margin-right: 10%;
   }
+  .profile .row4 a {
+    text-align: justify;
+    width: 85%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    color: #5D737E;
+    text-decoration: none;
+  }
+  .profile .row4 a:hover {
+    color: #19192B;
+  }
 
 .profile .row5 {
   text-align: left;
@@ -458,6 +506,18 @@ h1 {
     width: 85%;
     padding-left: 23px;
     margin-right: 10%;
+  }
+  .profile .row5 a {
+    text-align: justify;
+    width: 85%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    color: #5D737E;
+    text-decoration: none;
+  }
+  .profile .row5 a:hover {
+    color: #19192B;
   }
 
 .profile .row6 {
@@ -482,6 +542,18 @@ h1 {
     padding-left: 23px;
     margin-right: 10%;
   }
+  .profile .row6 a {
+    text-align: justify;
+    width: 85%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    color: #5D737E;
+    text-decoration: none;
+  }
+  .profile .row6 a:hover {
+    color: #19192B;
+  }
 
 .profile .row7 {
   text-align: left;
@@ -504,6 +576,18 @@ h1 {
     width: 85%;
     padding-left: 23px;
     margin-right: 10%;
+  }
+  .profile .row7 a {
+    text-align: justify;
+    width: 85%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    color: #5D737E;
+    text-decoration: none;
+  }
+  .profile .row7 a:hover {
+    color: #19192B;
   }
 
 .profile .row8 {
@@ -528,6 +612,18 @@ h1 {
     padding-left: 23px;
     margin-right: 10%;
   }
+  .profile .row8 a {
+    text-align: justify;
+    width: 85%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    color: #5D737E;
+    text-decoration: none;
+  }
+  .profile .row8 a:hover {
+    color: #19192B;
+  }
 
 .profile .row9 {
   text-align: left;
@@ -551,6 +647,18 @@ h1 {
     padding-left: 23px;
     margin-right: 10%;
   }
+  .profile .row9 a {
+    text-align: justify;
+    width: 85%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    color: #5D737E;
+    text-decoration: none;
+  }
+  .profile .row9 a:hover {
+    color: #19192B;
+  }
 
 .profile .row10 {
   text-align: left;
@@ -573,6 +681,18 @@ h1 {
     width: 85%;
     padding-left: 23px;
     margin-right: 10%;
+  }
+  .profile .row10 a {
+    text-align: justify;
+    width: 85%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    color: #5D737E;
+    text-decoration: none;
+  }
+  .profile .row10 a:hover {
+    color: #19192B;
   }
 
 .profile .row11 {
@@ -598,6 +718,18 @@ h1 {
     padding-left: 23px;
     margin-right: 10%;
   }
+  .profile .row11 a {
+    text-align: justify;
+    width: 85%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    color: #5D737E;
+    text-decoration: none;
+  }
+  .profile .row11 a:hover {
+    color: #19192B;
+  }
 
 .profile h2 {
   padding-top: 60px;
@@ -619,6 +751,22 @@ h1 {
     text-align: center;
     font-family: 'Muli', sans-serif;
   }
+  .profile .extra a {
+    text-align: justify;
+    width: 85%;
+    /*margin-right: 10%;*/
+    padding-bottom: 50px;
+    /*padding-left: 47%;*/
+    color: #5D737E;
+    text-decoration: none;
+  }
+  .profile .extra a:hover {
+    color: #19192B;
+  }
+
+
+
+
 
 .profile .row12 {
   text-align: left;
@@ -633,8 +781,7 @@ h1 {
     float: left;
   }
   .profile .row12 h3 {
-    padding-top: 3.4%;
-    padding-right: 936px;
+    padding-top: 5%;
     color: #3A4E48;
   }
   .profile .row12 p {
@@ -643,5 +790,16 @@ h1 {
     padding-left: 23px;
     margin-right: 10%;
   }
-
+  .profile .row12 a {
+    text-align: justify;
+    width: 85%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    color: #5D737E;
+    text-decoration: none;
+  }
+  .profile .row12 a:hover {
+    color: #19192B;
+  }
 
