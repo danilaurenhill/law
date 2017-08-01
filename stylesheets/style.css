@@ -342,6 +342,7 @@ h1 {
   display: inline-block;
   font-family: 'Muli', sans-serif;
 }
+
 .profile .row1 {
   text-align: left;
   padding-left: 25px;
@@ -360,7 +361,8 @@ h1 {
   }
   .profile .row1 p {
     text-align: justify;
-    width: 79%;
+    width: 85%;
+    margin-right: 10%;
     padding-left: 23px;
   }
 
@@ -382,8 +384,9 @@ h1 {
   }
   .profile .row2 p {
     text-align: justify;
-    width: 79%;
+    width: 85%;
     padding-left: 23px;
+    margin-right: 10%;
   }
 
 .profile .row3 {
@@ -405,13 +408,15 @@ h1 {
   }
   .profile .row3 p {
     text-align: justify;
-    width: 79%;
+    width: 85%;
     padding-left: 23px;
+    margin-right: 10%;
   }
 
 .profile .row4 {
   text-align: left;
   padding-left: 25px;
+  padding-top: 20px;
 }
   .profile .row4 img {
     padding-top: 5%;
@@ -427,8 +432,9 @@ h1 {
   }
   .profile .row4 p {
     text-align: justify;
-    width: 79%;
+    width: 85%;
     padding-left: 23px;
+    margin-right: 10%;
   }
 
 .profile .row5 {
@@ -449,8 +455,9 @@ h1 {
   }
   .profile .row5 p {
     text-align: justify;
-    width: 79%;
+    width: 85%;
     padding-left: 23px;
+    margin-right: 10%;
   }
 
 .profile .row6 {
@@ -471,8 +478,9 @@ h1 {
   }
   .profile .row6 p {
     text-align: justify;
-    width: 79%;
+    width: 85%;
     padding-left: 23px;
+    margin-right: 10%;
   }
 
 .profile .row7 {
@@ -493,8 +501,9 @@ h1 {
   }
   .profile .row7 p {
     text-align: justify;
-    width: 79%;
+    width: 85%;
     padding-left: 23px;
+    margin-right: 10%;
   }
 
 .profile .row8 {
@@ -515,8 +524,9 @@ h1 {
   }
   .profile .row8 p {
     text-align: justify;
-    width: 79%;
+    width: 85%;
     padding-left: 23px;
+    margin-right: 10%;
   }
 
 .profile .row9 {
@@ -537,8 +547,9 @@ h1 {
   }
   .profile .row9 p {
     text-align: justify;
-    width: 79%;
+    width: 85%;
     padding-left: 23px;
+    margin-right: 10%;
   }
 
 .profile .row10 {
@@ -559,8 +570,9 @@ h1 {
   }
   .profile .row10 p {
     text-align: justify;
-    width: 79%;
+    width: 85%;
     padding-left: 23px;
+    margin-right: 10%;
   }
 
 .profile .row11 {
@@ -582,8 +594,9 @@ h1 {
   }
   .profile .row11 p {
     text-align: justify;
-    width: 79%;
+    width: 85%;
     padding-left: 23px;
+    margin-right: 10%;
   }
 
 .profile h2 {
@@ -626,8 +639,9 @@ h1 {
   }
   .profile .row12 p {
     text-align: justify;
-    width: 79%;
+    width: 85%;
     padding-left: 23px;
+    margin-right: 10%;
   }
 
 
