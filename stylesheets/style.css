@@ -150,11 +150,12 @@ h1 {
 }
 .contact .split .left9 {
   width: 40%;
-  float: right;
+  /*float: left;*/
 }
 .contact .split .right9 {
   width: 40%;
-  float: left;
+  /*float: right;*/
+  display: none;
 }
 
 
