@@ -8,17 +8,29 @@
 <h1>Contact Information</h1>
 <br>
 
-<div class="topnav">
-  <a class="active" href="./home.html">Home</a>
+<div class="topnav" id="myTopnav">
+  <a href="./home.html">Home</a>
   <a href="./practice.html">Practice Areas</a>
   <a href="./litigation_practice.html">Litigation Practices</a>
   <a href="./profile.html">Attorney Profiles</a>
   <a href="./contact.html">Contact</a>
-</div></h1>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 
 <div class="contact">
   <br><br>
-  <img src="./images/law2.jpg" alt="New York" width="600" height="310">
+  <img src="./images/law2.jpg" alt="New York" height="310">
   <h2>General</h2>
   <p>1700 Broadway New York, NY  10019</p>
   <p>Main - (212) 757-0007</p>

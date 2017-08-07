@@ -8,13 +8,25 @@
 <h1>Insolvency / Bankruptcy</h1>
 <br>
 
-<div class="topnav">
-  <a class="active" href="./home.html">Home</a>
+<div class="topnav" id="myTopnav">
+  <a href="./home.html">Home</a>
   <a href="./practice.html">Practice Areas</a>
   <a href="./litigation_practice.html">Litigation Practices</a>
   <a href="./profile.html">Attorney Profiles</a>
   <a href="./contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 
 <div class="ib">
   <p>The Firm has a unique practice in the insolvency field, representing a select group of clients in high stakes and high profile matters through its attorneys who bring broad practice and academic experience to the table in both Bankruptcy Law and dispute resolution. The representations in the insolvency field handled by the Firm’s attorneys, currently and over the years, include:
