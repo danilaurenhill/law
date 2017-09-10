@@ -102,12 +102,12 @@ h1 {
 .bottom h3 {
   font-family: 'Muli', sans-serif;
   font-size: 20px;
-  color: #19192B;
+  color: #CC2936;
 }
 .bottom .button {
-  background-color: #E3E9C2; /* Green */
+  background-color: #D9D9D9; /* Green */
   border: none;
-  color: #5D737E;
+  color: #CC2936;
   font-family: 'Muli', sans-serif;
   font-size: 20px;
   font-weight: bold;
@@ -130,10 +130,10 @@ h1 {
   width: 60%;
 }
 .contact h2 {
-  color: #5D737E;
+  color: #284B63;
 }
 .contact .split h3 {
-  color: #3A4E48;
+  color: #CC2936;
 }
 .contact .split .left1 {
   width: 40%;
@@ -255,13 +255,13 @@ h1 {
 }
 .options h2 {
   font-family: 'Muli', sans-serif;
-  color: #5D737E;
+  color: #284B63;
   padding-top: 20px;
 }
 .options .button {
-  background-color: #E3E9C2; /* Green */
+  background-color: #D9D9D9; /* Green */
   border: none;
-  color: #5D737E;
+  color: #CC2936;
   font-family: 'Muli', sans-serif;
   font-size: 19px;
   font-weight: bold;
@@ -398,6 +398,9 @@ h1 {
   display: inline-block;
   font-family: 'Muli', sans-serif;
 }
+/*.profile h2 {
+  color: #284B63
+}*/
 
 .profile .row1 {
   text-align: left;
@@ -414,7 +417,7 @@ h1 {
   .profile .row1 h3 {
     padding-top: 5%;
     font-size: 21px;
-    color: #3A4E48;
+    color: #CC2936;
   }
   .profile .row1 p {
     text-align: justify;
@@ -448,7 +451,7 @@ h1 {
   }
   .profile .row2 h3 {
     padding-top: 5%;
-    color: #3A4E48;
+    color: #CC2936;
   }
   .profile .row2 p {
     text-align: justify;
@@ -484,7 +487,7 @@ h1 {
   }
   .profile .row3 h3 {
     padding-top: 4%;
-    color: #3A4E48;
+    color: #CC2936;
   }
   .profile .row3 p {
     text-align: justify;
@@ -520,7 +523,7 @@ h1 {
   }
   .profile .row4 h3 {
     padding-top: 5%;
-    color: #3A4E48;
+    color: #CC2936;
   }
   .profile .row4 p {
     text-align: justify;
@@ -555,7 +558,7 @@ h1 {
   }
   .profile .row5 h3 {
     padding-top: 5%;
-    color: #3A4E48;
+    color: #CC2936;
   }
   .profile .row5 p {
     text-align: justify;
@@ -590,7 +593,7 @@ h1 {
   }
   .profile .row6 h3 {
     padding-top: 5%;
-    color: #3A4E48;
+    color: #CC2936;
   }
   .profile .row6 p {
     text-align: justify;
@@ -625,7 +628,7 @@ h1 {
   }
   .profile .row7 h3 {
     padding-top: 5%;
-    color: #3A4E48;
+    color: #CC2936;
   }
   .profile .row7 p {
     text-align: justify;
@@ -660,7 +663,7 @@ h1 {
   }
   .profile .row8 h3 {
     padding-top: 5%;
-    color: #3A4E48;
+    color: #CC2936;
   }
   .profile .row8 p {
     text-align: justify;
@@ -695,7 +698,7 @@ h1 {
   }
   .profile .row9 h3 {
     padding-top: 5%;
-    color: #3A4E48;
+    color: #CC2936;
   }
   .profile .row9 p {
     text-align: justify;
@@ -730,7 +733,7 @@ h1 {
   }
   .profile .row10 h3 {
     padding-top: 5%;
-    color: #3A4E48;
+    color: #CC2936;
   }
   .profile .row10 p {
     text-align: justify;
@@ -766,7 +769,7 @@ h1 {
   }
   .profile .row11 h3 {
     padding-top: 5%;
-    color: #3A4E48;
+    color: #CC2936;
   }
   .profile .row11 p {
     text-align: justify;
@@ -802,6 +805,7 @@ h1 {
   .profile .extra h3 {
     text-align: center;
     font-family: 'Muli', sans-serif;
+    color: #CC2936;
   }
   .profile .extra p {
     text-align: center;
@@ -838,7 +842,7 @@ h1 {
   }
   .profile .row12 h3 {
     padding-top: 5%;
-    color: #3A4E48;
+    color: #CC2936
   }
   .profile .row12 p {
     text-align: justify;
