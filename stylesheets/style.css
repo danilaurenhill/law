@@ -32,7 +32,7 @@ h1 {
 }*/
 
 .topnav {
-    background-color: #5D737E;
+    background-color: #3C6E71;
     overflow: hidden;
 }
 
@@ -40,7 +40,7 @@ h1 {
 .topnav a {
     float: left;
     display: block;
-    color: #E3E9C2;
+    color: #D9D9D9;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -49,8 +49,8 @@ h1 {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #19192B;
-    color: #E3E9C2;
+    background-color: #284B63;
+    color: #D9D9D9;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -211,38 +211,41 @@ h1 {
 }
 
 
-/*practice area*/
+/* news */
 .info {
   text-align: center;
 }
 .info h2 {
   font-family: 'Muli', sans-serif;
-  color: #5D737E;
+  color: #3C6E71;
   padding-top: 60px;
 }
-.info p {
-  font-family: 'Muli', sans-serif;
-  font-size: 18px;
-  width: 84%;
-  padding-left: 8%;
-  text-align: justify;
-  padding-top: 20px;
-}
-.info .button {
-  background-color: #E3E9C2; /* Green */
-  border: none;
-  color: #5D737E;
-  font-family: 'Muli', sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+.box {
+  border: 2px solid #D9D9D9;
   border-radius: 12px;
+}
+.info .box h2 {
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #353535;
+}
+.info .box h3 {
+  font-family: 'Muli', sans-serif;
+  color: #353535;
+  padding-top: 20px;
+  width: 70%;
+  padding-left: 14%;
+  font-size: 16px;
+  text-align: justify;
+}
+.info .box p {
+  font-family: 'Muli', sans-serif;
+  color: #CC2936;
+  padding-top: -100px;
+  width: 70%;
+  padding-left: 14%;
+  font-size: 14px;
 }
 
 
