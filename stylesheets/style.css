@@ -1,7 +1,12 @@
+.slideshow .mySlides {
+  height: 480px;
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
 /*home page*/
 h1 {
-  color: #19192B;
+  color: #284B63;
   font-family: 'Muli', sans-serif;
   padding-left: 13px;
 }
@@ -85,9 +90,15 @@ h1 {
 .bottom {
   text-align: center;
 }
-.bottom img {
+.bottom span p {
+  text-align: center;
+  font-family: 'Muli', sans-serif;
   padding-top: 20px;
-  width: 42%;
+  font-size: 18px;
+  color: #19192B;
+  width: 90%;
+  padding-left: 12%;
+  text-align: justify;
 }
 .bottom p {
   text-align: center;
@@ -96,7 +107,7 @@ h1 {
   font-size: 18px;
   color: #19192B;
   width: 80%;
-  padding-left: 10%;
+  padding-left: 20%;
   text-align: justify;
 }
 .bottom h3 {
@@ -105,7 +116,7 @@ h1 {
   color: #CC2936;
 }
 .bottom .button {
-  background-color: #D9D9D9; /* Green */
+  background-color: #D9D9D9; 
   border: none;
   color: #CC2936;
   font-family: 'Muli', sans-serif;

@@ -6,16 +6,16 @@
   <link rel="stylesheet" media="screen and (min-device-width: 800px)" href="style.css" />
   <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans+Condensed:300" rel="stylesheet">
 </head>
-<h1>Scarola Zubatov Schaffzin PLLC</h1>
+<h1 style="font-size:36px;">Scarola Zubatov Schaffzin PLLC</h1>
 <br>
 
 <div class="topnav" id="myTopnav">
-  <a href="./home.html">Home</a>
-  <a href="./news.html">News</a>
-  <a href="./litigation_practice.html">Litigation Practices</a>
-  <a href="./profile.html">Attorney Profiles</a>
-  <a href="./contact.html">Contact</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  <a style="font-size:20px;" href="./home.html">Home</a>
+  <a style="font-size:20px;"href="./news.html">News</a>
+  <a style="font-size:20px;"href="./litigation_practice.html">Litigation Practices</a>
+  <a style="font-size:20px;"href="./profile.html">Attorney Profiles</a>
+  <a style="font-size:20px;"href="./contact.html">Contact</a>
+  <a style="font-size:20px;"href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
 <script>
@@ -29,10 +29,49 @@ function myFunction() {
 }
 </script>
 
-<div class="bottom">
-  <img src="./images/law6.jpg" alt="New York" height="380" width="400">
+<!-- <ul id="slides">
+  <li class="slide-showing"><img class="photo" src="./images/law6.jpg"></li>
+  <li class="slide"><img class="photo" src="./images/law6.jpg"></li>
+  <li class="slide"><img class="photo" src="./images/law6.jpg"></li>
+</ul>  -->
 
-  <p>SCAROLA ZUBATOV SCHAFFZIN pllc advocates on behalf of clients in commercial cases and counsels clients in complex business and financial matters. Based in New York City, the Firm represents businesses and individuals located throughout the country and around the world, in matters both local and international.</p>
+<div class="slideshow w3-container">
+  <img class="mySlides" src="./images/law6.jpg">
+  <img class="mySlides" src="./images/law1.jpg">
+  <img class="mySlides" src="./images/law2.jpg">
+</div>
+
+<script>
+//   var slides = document.querySelectorAll('#slides .slide');
+//   var currentSlide = 0;
+//   var slideInterval = setInterval(nextSlide,3000);
+  
+//   function nextSlide() {
+//       slides[currentSlide].className = 'slide';
+//       currentSlide = (currentSlide+1)%slides.length;
+//       slides[currentSlide].className = 'slide-showing';
+//   }
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+
+<div class="bottom">
+  <br>
+  <span><p>SCAROLA ZUBATOV SCHAFFZIN pllc advocates on behalf of clients in commercial cases and counsels clients in complex business and financial matters. Based in New York City, the Firm represents businesses and individuals located throughout the country and around the world, in matters both local and international.</p></span>
   
   <br>
   <h3> ~ About Us ~ </h3>
