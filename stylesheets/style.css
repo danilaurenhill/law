@@ -2,17 +2,43 @@ body {
   background-color: #fafafa;
 }
 
+head span {
+  display: inline-block;
+}
+head span img {
+  display: inline-block;
+  float:left;
+}
+head span h1 {
+  display: inline-block;
+  float:right;
+}
 .slideshow .mySlides {
-  height: 480px;
-  width: 100%;
+  height: 520px;
+  width: 90%;
+  padding-left: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
 /*home page*/
+.combo {
+  width: 100%;
+}
+.combo img {
+  float:left;
+  padding-right: 15px;
+
+}
+.combo h1 {
+  /*float:right;*/
+
+}
+
+
 h1 {
   color: #284B63;
   font-family: 'Muli', sans-serif;
-  padding-left: 13px;
+  /*padding-left: 13px;*/
 }
 /*.topnav {
     background-color: #5D737E;
@@ -92,7 +118,10 @@ h1 {
 
 
 .bottom {
+  margin-top: -20px;
   text-align: center;
+  width: 90%;
+  padding-left: 5%;
 }
 .bottom span {
   font-size: 20px;
@@ -108,7 +137,7 @@ h1 {
   padding-left: 6%;
   text-align: justify;
   font-size: 22px;
-  
+
 }
 .bottom span h2 {
   color: #3C6E71;
