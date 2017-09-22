@@ -8,56 +8,124 @@
   <link rel="icon" type="image/gif/png" href="./images/favicon.ico">
   <link rel="icon" href="favicon.ico" type="image/x-icon"/>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <div class="combo">
-  <img src="images/favicon.ico"><img>
+  <!-- <img src="images/favicon.ico"><img> -->
   <h1 style="font-size:36px;">Scarola Zubatov Schaffzin PLLC</h1>
 </div>
 <br>
 
-<div class="topnav" id="myTopnav">
-<ul>
-  <li><a style="font-size:20px;" href="./home.html">Home</a></li>
-  <!-- <li><a style="font-size:20px;" href="./news.html">News</a></li> -->
-    <li class="dropdown">
-    <a style="font-size:20px;" href="javascript:void(0)" class="dropbtn">News</a>
-    <div  style="width:40%;"class="dropdown-content">
-      <a style="font-size:18px; width:90%" href="./news.html"><span>Latest News:</span> The Firm Seeks Judgment for Lehman Bankruptcy Claimants Seeking $250 Million+ in Cross-Motions with LBI Trustee...</a>
 
+<section class="navigation">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="#!"><img src="images/favicon.ico"><img></a>
+    </div>
+    <nav>
+      <div class="nav-mobile">
+        <a id="nav-toggle" href="#!"><span></span></a>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <a href="#!">Home</a>
+        </li>
+        <li>
+          <a href="#!">News</a>
+        </li>
+        <li>
+          <a href="#!">Practice Areas</a>
+          <ul class="nav-dropdown">
+            <li>
+              <span><a href="./litigation.html">Litigation</a></span>
+            </li>
+            <li>
+              <span><a href="./crc.html">Corporate / Real Estate Construction</a></span>
+            </li>
+            <li>
+              <span><a href="./ib.html">Insolvency / Bankruptcy</a></span>
+            </li>
+            <li>
+              <span><a href="./adr.html">Alternative Dispute Resolution</a></span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#!">Attorney Profiles</a>
+        </li>
+        <li>
+          <a href="#!">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- <div class="topnav" id="myTopnav">
+  <a href="./home.html">Home</a> -->
+  <!-- <a href="./news.html">News</a> -->
+    <!-- <a style="font-size:18px;" href="javascript:void(0);" class="dropdown">News</a> -->
+  <!-- <li class="dropdown" href="javascript:void(0);"><a class="dropdown">News</a>
+    <div  style="width:40%; margin-top:52px;"class="dropdown-content">
+      <a style="font-size:18px; width:90%" href="./news.html"><span>Latest News:</span> The Firm Seeks Judgment for Lehman Bankruptcy Claimants Seeking $250 Million+ in Cross-Motions with LBI Trustee...</a>
+      <a style="font-size:18px; width:90%" href="./news.html"><span>Latest News:</span> Dan Brooks files amicus curiae brief for New York Intellectual Property Law Association in the Federal Circuit in Oracle America, Inc. v. Google Inc...</a>
+      <a style="font-size:18px; width:90%" href="./news.html"><span>Latest News:</span>Jon Landers Authors Two New Articles Concerning Fraudulent Transfers...</a>
     </div>
   </li>
-  <li class="dropdown">
+  
     <a style="font-size:20px;" href="javascript:void(0)" class="dropbtn">Practice Area</a>
-    <div class="dropdown-content">
-      <a href="./litigation.html">Litigation</a>
-      <a href="./crc.html">Corporate / Real Estate / Construction</a>
-      <a href="./ib.html">Insolvency / Bankruptcy</a>
-      <a href="./adr.html">Alternative Dispute Resolution</a>
-    </div>
+  <li class="dropdown">
+    <div style="font-size:18px; margin-top:54px; width:40%" class="dropdown-content">
+      <a style="font-size:18px; width:60%"  href="./litigation.html">Litigation</a>
+      <a style="font-size:18px; width:70%"  href="./crc.html">Corporate / Real Estate Construction</a>
+      <a style="font-size:18px; width:60%"  href="./ib.html">Insolvency / Bankruptcy</a>
+      <a style="font-size:18px; width:60%"  href="./adr.html">Alternative Dispute Resolution</a>
+    </div> 
   </li>
-  <li><a style="font-size:20px;"href="./profile.html">Attorney Profiles</a></li>
-  <li><a style="font-size:20px;"href="./contact.html">Contact</a></li>
-  <li><a style="font-size:20px;"href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li>
-</ul>
+  <a href="./profile.html">Attorney Profiles</a>
+  <a href="./contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
+ -->
 
-<!-- <ul id="slides">
-  <li class="slide-showing"><img class="photo" src="./images/law6.jpg"></li>
-  <li class="slide"><img class="photo" src="./images/law6.jpg"></li>
-  <li class="slide"><img class="photo" src="./images/law6.jpg"></li>
-</ul>  -->
+
+<script>
+(function($) {
+  $(function() {
+    $('nav ul li > a:not(:only-child)').click(function(e) {
+      $(this).siblings('.nav-dropdown').toggle();
+      $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
+    });
+    $('html').hover(function() {
+      $('.nav-dropdown').hide();
+    });
+  });
+  document.querySelector('#nav-toggle').addEventListener('mousemove', function() {
+    this.classList.toggle('active');
+  });
+  $('#nav-toggle').click(function() {
+    $('nav ul').toggle();
+  });
+})(jQuery);
+
+// function myFunction() {
+//     var x = document.getElementById("myTopnav");
+//     if (x.className === "topnav") {
+//         x.className += " responsive";
+//     } else {
+//         x.className = "topnav";
+//     }
+// }
+
+</script>
 
 <div class="slideshow w3-container">
   <img class="mySlides" src="./images/Fall1.jpg">
@@ -66,15 +134,15 @@ function myFunction() {
 </div>
 
 <script>
-//   var slides = document.querySelectorAll('#slides .slide');
-//   var currentSlide = 0;
-//   var slideInterval = setInterval(nextSlide,3000);
+var slides = document.querySelectorAll('#slides .slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide,3000);
   
-//   function nextSlide() {
-//       slides[currentSlide].className = 'slide';
-//       currentSlide = (currentSlide+1)%slides.length;
-//       slides[currentSlide].className = 'slide-showing';
-//   }
+function nextSlide() {
+    slides[currentSlide].className = 'slide';
+    currentSlide = (currentSlide+1)%slides.length;
+    slides[currentSlide].className = 'slide-showing';
+}
 
 var myIndex = 0;
 carousel();
@@ -90,7 +158,7 @@ function carousel() {
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 3000); // Change image every 2 seconds
 }
-</script>
+</script> 
 
 
 <div class="bottom">
