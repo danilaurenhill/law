@@ -19,8 +19,6 @@ head span h1 {
   padding-left: 5%;
 }
 
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -66,6 +64,9 @@ li.dropdown {
     display: block;
     text-align: left;
 }
+.dropdown-content a span {
+  color: #CC2936;
+}
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
@@ -83,11 +84,9 @@ li.dropdown {
 .combo img {
   float:left;
   padding-right: 15px;
-
 }
 .combo h1 {
   /*float:right;*/
-
 }
 
 
