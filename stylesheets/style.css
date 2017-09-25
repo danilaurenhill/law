@@ -63,7 +63,7 @@ nav ul li ul li a {
   top: 22%;
   left: 81%;
   margin-right: 8;
-  background: grey
+  background: gray;
   height: 70px;
   width: 70px;
 }
@@ -152,8 +152,6 @@ nav ul li ul li a {
 .brand {
   position: absolute;
   padding-left: 20px;
-  width: 40px;
-  height: 40px;
   float: left;
   line-height: 70px;
   text-transform: uppercase;
