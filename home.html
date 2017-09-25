@@ -14,7 +14,6 @@
 <div class="combo">
   <h1 style="font-size:36px; padding-left:20px;">Scarola Zubatov Schaffzin PLLC</h1>
 </div>
-<br>
 
 
 <section class="navigation" style="height:80px;">
@@ -99,9 +98,19 @@
 </div>
 
 <script>
-var slides = document.querySelectorAll('#slides .slide');
-var currentSlide = 0;
-var slideInterval = setInterval(nextSlide,3000);
+// $("#slideshow > div:gt(0)").hide();
+
+// setInterval(function() { 
+//   $('#slideshow > div:first')
+//     .fadeOut(1000)
+//     .next()
+//     .fadeIn(1000)
+//     .end()
+//     .appendTo('#slideshow');
+// },  3000);
+// var slides = document.querySelectorAll('#slides .slide');
+// var currentSlide = 0;
+// var slideInterval = setInterval(nextSlide,3000);
   
 function nextSlide() {
     slides[currentSlide].className = 'slide';
