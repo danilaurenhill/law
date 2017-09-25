@@ -5,39 +5,87 @@
   <link type="text/css" rel="stylesheet" href="stylesheets/style.css">
   <link rel="stylesheet" media="screen and (min-device-width: 800px)" href="style.css" />
   <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans+Condensed:300" rel="stylesheet">
-
+  <link rel="icon" type="image/gif/png" href="./images/favicon.ico">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <h1>Litigation</h1>
 <br>
 
-<div class="topnav" id="myTopnav">
-<ul>
-  <li><a style="font-size:20px;" href="./home.html">Home</a></li>
-  <li><a style="font-size:20px;" href="./news.html">News</a></li>
-  <li class="dropdown">
-    <a style="font-size:20px;" href="javascript:void(0)" class="dropbtn">Practice Area</a>
-    <div class="dropdown-content">
-      <a href="./litigation.html">Litigation</a>
-      <a href="./crc.html">Corporate / Real Estate / Construction</a>
-      <a href="./ib.html">Insolvency / Bankruptcy</a>
-      <a href="./adr.html">Alternative Dispute Resolution</a>
+<section class="navigation">
+  <div class="nav-container">
+    <div class="brand">
+      <img src="images/favicon.bmp"><img>
     </div>
-  </li>
-  <li><a style="font-size:20px;"href="./profile.html">Attorney Profiles</a></li>
-  <li><a style="font-size:20px;"href="./contact.html">Contact</a></li>
-  <li><a style="font-size:20px;"href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li>
-</ul>
-</div>
+    <nav>
+      <div class="nav-mobile">
+        <a id="nav-toggle" href="#!"><span></span></a>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <a href="./home.html">Home</a>
+        </li>
+        <li>
+          <a href="#!">News</a>
+          <ul class="nav-dropdown">
+            <li>
+              <span><a href ="./news.html"><p style="width:90%"><span style="color:#CC2936;">Latest News:</span> The Firm Seeks Judgment for Lehman Bankruptcy Claimants Seeking $250 Million+ in Cross-Motions with LBI Trustee...</p></a></span>
+            </li>
+            <li>
+              <span><a href="./news.html"><p style="width:90%"><span style="color:#CC2936;">Latest News:</span> Dan Brooks files amicus curiae brief for New York Intellectual Property Law Association in the Federal Circuit in Oracle America, Inc. v. Google Inc...</p></a></span>
+            </li>
+            <li>
+              <span><a href="./news.html"><p style="width:90%"><span style="color:#CC2936;">Latest News:</span> Jon Landers Authors Two New Articles Concerning Fraudulent Transfers...</p></a></span>
+            </li>
+          </ul>
+        <li>
+          <a href="#!">Practice Areas</a>
+          <ul class="nav-dropdown">
+            <li>
+              <span><a href="./litigation.html">Litigation</a></span>
+            </li>
+            <li>
+              <span><a href="./crc.html">Corporate / Real Estate Construction</a></span>
+            </li>
+            <li>
+              <span><a href="./ib.html">Insolvency / Bankruptcy</a></span>
+            </li>
+            <li>
+              <span><a href="./adr.html">Alternative Dispute Resolution</a></span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="./profile.html">Attorney Profiles</a>
+        </li>
+        <li>
+          <a href="./contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
 
 <script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
+(function($) {
+  $(function() {
+    $('nav ul li > a:not(:only-child)').click(function(e) {
+      $(this).siblings('.nav-dropdown').toggle();
+      $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
+    });
+    $('html').hover(function() {
+      $('.nav-dropdown').hide();
+    });
+  });
+  document.querySelector('#nav-toggle').addEventListener('mousemove', function() {
+    this.classList.toggle('active');
+  });
+  $('#nav-toggle').on('click',function() {
+    $('nav ul').toggle();
+  });
+})(jQuery);
 </script>
 
 <div class="lit">
